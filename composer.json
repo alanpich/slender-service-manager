@@ -1,0 +1,27 @@
+{
+    "name": "slender/service-manager",
+    "type": "library",
+    "description": "Register DI services in config files",
+    "keywords": ["slender-module","service","config","dependency injection"],
+    "license": "MIT",
+    "version": "0.0.1",
+    "homepage": "http://alanpich.github.io/slender",
+    "authors": [
+        {
+            "name": "Alan Pich",
+            "email": "alan.pich@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "slender/slender": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slender\\Module\\ServiceManager\\": "src/"
+        }
+    }
+
+}
